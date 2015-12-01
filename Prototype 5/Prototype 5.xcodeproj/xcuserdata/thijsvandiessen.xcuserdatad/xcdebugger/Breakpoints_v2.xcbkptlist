@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prototype 5/ViewController.swift"
+            timestampString = "470703629.357553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prototype_5.ViewController.init (Prototype_5.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Prototype_5.ViewController"
+                  moduleName = "Prototype 5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thijsvandiessen/development/prototyping/Prototype%205/Prototype%205/ViewController.swift"
+                  timestampString = "470703853.57643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prototype_5.ViewController.init (Prototype_5.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Prototype_5.ViewController&gt;"
+                  moduleName = "Prototype 5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thijsvandiessen/development/prototyping/Prototype%205/Prototype%205/ViewController.swift"
+                  timestampString = "470703853.577035"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
