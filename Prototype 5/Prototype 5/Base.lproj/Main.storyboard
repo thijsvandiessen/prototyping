@@ -13,14 +13,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kalender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rqN-LO-0Nb">
-                                <rect key="frame" x="266" y="273" width="68" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeline 4.002" id="fse-eL-Yjt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,33 +26,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CmH-E6-Th2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-232" y="1390.9999999999995"/>
+            <point key="canvasLocation" x="-1372" y="1325"/>
         </scene>
         <!--Milestones-->
         <scene sceneID="xVc-ev-ajB">
             <objects>
-                <viewController id="dZX-Tp-0yW" sceneMemberID="viewController">
+                <viewController id="dZX-Tp-0yW" customClass="FeedViewController" customModule="Prototype_5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dKI-VW-5lw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Milestones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q0N-58-WTg">
-                                <rect key="frame" x="119" y="273" width="83" height="21"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GkA-lL-O4m">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scrollvieuw" id="ykI-VB-qec">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </scrollView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Milestones" id="hRG-8k-g4P"/>
+                    <connections>
+                        <outlet property="feed" destination="ykI-VB-qec" id="Aau-7O-Lij"/>
+                        <outlet property="scrollView" destination="GkA-lL-O4m" id="zgW-nj-IM0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GWY-nF-4UJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1179" y="2014.9999999999993"/>
+            <point key="canvasLocation" x="-2319" y="1949"/>
         </scene>
         <!--Foto's-->
         <scene sceneID="1D5-HU-xpW">
@@ -65,14 +70,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foto's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dzK-hW-YxD">
-                                <rect key="frame" x="137" y="273" width="47" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeline 4.003" id="DdU-iF-XNW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -81,52 +83,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7iC-OE-9CR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-720" y="2014.9999999999993"/>
+            <point key="canvasLocation" x="-1860" y="1949"/>
         </scene>
         <!--Activiteiten-->
         <scene sceneID="gIy-ew-bIq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DHP-Up-8XF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="1a6-Sr-kJb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UJT-TA-Oyd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" id="QFJ-zO-gXp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeline 4.001" id="P0D-Mx-uGJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" id="ZOP-9C-OpU">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                    </imageView>
-                                    <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" id="tTJ-mG-dkA">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                    </imageView>
-                                    <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" id="gsy-ka-jbl">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                    </imageView>
-                                    <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" id="edJ-TO-k8l">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                    </imageView>
-                                </subviews>
                                 <animations/>
-                            </stackView>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Activiteiten" id="4ea-6I-Fad"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DHP-Up-8XF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-228" y="754"/>
+            <point key="canvasLocation" x="-1372" y="641"/>
         </scene>
         <!--hoofdnavigatie-->
         <scene sceneID="PF4-xE-4Ho">
@@ -147,10 +127,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UsN-Nx-aFR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-948" y="980.99999999999977"/>
+            <point key="canvasLocation" x="-2088" y="915"/>
         </scene>
     </scenes>
     <resources>
-        <image name="img1" width="197" height="91"/>
+        <image name="scrollvieuw" width="320" height="2000"/>
+        <image name="timeline 4.001" width="320" height="568"/>
+        <image name="timeline 4.002" width="320" height="568"/>
+        <image name="timeline 4.003" width="320" height="568"/>
     </resources>
 </document>

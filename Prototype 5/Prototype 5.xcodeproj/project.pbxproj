@@ -14,6 +14,7 @@
 		4540EE181C0E351400BD1EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4540EE161C0E351400BD1EE1 /* LaunchScreen.storyboard */; };
 		4540EE231C0E351400BD1EE1 /* Prototype_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540EE221C0E351400BD1EE1 /* Prototype_5Tests.swift */; };
 		4540EE2E1C0E351400BD1EE1 /* Prototype_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540EE2D1C0E351400BD1EE1 /* Prototype_5UITests.swift */; };
+		763E40D21C0EECF5002ADC83 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763E40D11C0EECF5002ADC83 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4540EE291C0E351400BD1EE1 /* Prototype 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototype 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4540EE2D1C0E351400BD1EE1 /* Prototype_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_5UITests.swift; sourceTree = "<group>"; };
 		4540EE2F1C0E351400BD1EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763E40D11C0EECF5002ADC83 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = ../FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4540EE0C1C0E351400BD1EE1 /* Prototype 5 */ = {
 			isa = PBXGroup;
 			children = (
+				763E40D11C0EECF5002ADC83 /* FeedViewController.swift */,
 				4540EE0D1C0E351400BD1EE1 /* AppDelegate.swift */,
 				4540EE0F1C0E351400BD1EE1 /* ViewController.swift */,
 				4540EE111C0E351400BD1EE1 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4540EE101C0E351400BD1EE1 /* ViewController.swift in Sources */,
+				763E40D21C0EECF5002ADC83 /* FeedViewController.swift in Sources */,
 				4540EE0E1C0E351400BD1EE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				4540EE341C0E351400BD1EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4540EE351C0E351400BD1EE1 /* Build configuration list for PBXNativeTarget "Prototype 5Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				4540EE371C0E351400BD1EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4540EE381C0E351400BD1EE1 /* Build configuration list for PBXNativeTarget "Prototype 5UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				4540EE3A1C0E351400BD1EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
